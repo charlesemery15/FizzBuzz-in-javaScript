@@ -10,4 +10,10 @@ describe("FizzBuzz", function(){
       expect(fizzBuzz.run(3)).toEqual("fizz");
     });
   });
+
+  describe("for multiples of 5", function(){
+    it("returns buzz", function(){
+      expect(fizzBuzz.run(5)).toEqual("buzz");
+    });
+  });
 });
